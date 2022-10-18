@@ -52,10 +52,10 @@ const AddEdit = () => {
                 email,
                 contact
             }).then(()=>{
-                setState({name:"",email:"",contatc:""})
+                setState({name:"",email:"",contact:""})
             }).catch((err)=>toast.error(err.response.data));  
             toast.success("contact Added")
-            setTimeout(()=>navigate("/",{from:AddEdit}),3000)
+            setTimeout(()=>navigate("/Home",{from:AddEdit}),3000)
           }else{
             axios.put(`${API.updateUser}/${id}`,{
                 name,
@@ -65,7 +65,7 @@ const AddEdit = () => {
                 setState({name:"",email:"",contatc:""})
             }).catch((err)=>toast.error(err.response.data));  
             toast.success("contact UPdated")
-            setTimeout(()=>navigate("/",{from:AddEdit}),3000)
+            setTimeout(()=>navigate("/Home",{from:AddEdit}),3000)
         }
        }
            }

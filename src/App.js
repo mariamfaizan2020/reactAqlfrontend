@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import AddEdit from "./pages/AddEdit";
 import View from "./pages/View"
-
+import Register from "./pages/register"
+import Login from "./pages/login"
 function App() {
   return (
     
@@ -17,8 +18,9 @@ function App() {
 
 
     <Routes>
- 
-      <Route path="/"  element={<Home/>}/>
+      <Route path="/" element={<Login/>}/>  
+      <Route path="/Home"  element={<Home/>}/>
+      <Route path="/register" element={<Register/>}/>
       <Route path="/addcontact"  element={<AddEdit/>}/>
       <Route path="/update/:id"  element={<AddEdit/>}/>
       <Route path="/view/:id"  element={<View/>}/>

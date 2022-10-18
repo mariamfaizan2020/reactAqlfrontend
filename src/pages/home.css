@@ -59,3 +59,13 @@
     background-color: #e82764;
     margin-bottom: 10px;
 }
+.btn-next {
+   
+    align-content: center;
+    background-color: #008cba;
+}
+.paragraph{
+    color:#008cba;
+    font-size: large; 
+  font-weight: bold; 
+}
