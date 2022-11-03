@@ -39,7 +39,7 @@
     display:inline-block;
     border-radius: 5px;
     font-size:16px;
-    margin:4px 2px;
+    /* margin:10px 10px; */
     cursor:pointer;
 
 }
@@ -57,12 +57,14 @@
 
 .btn-contact{
     background-color: #e82764;
-    margin-bottom: 10px;
+text-align: right;
+
 }
 .btn-next {
    
     align-content: center;
     background-color: #008cba;
+    
 }
 .paragraph{
     color:#008cba;

@@ -84,9 +84,9 @@ function Register() {
 
     }
     return (
-        <Grid container variant="container">
+        <Grid container variant="container" style={{marginTop:'6%'}}>
             <Grid item xs={12} sm={12} md={12} lg={12} style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "30px" }} >
-                <Grid item xs={12} sm={12} md={6} lg={6} style={{ border: "1px solid gray" }}>
+                <Grid item xs={12} sm={12} md={6} lg={6} style={{ border: "1px solid gray", backgroundColor: "#E2EDEE" }}>
                     <Grid item xs={12} sm={12} md={12} lg={12} style={{ padding: 10, margin: "20px auto" }}>
                         <h2 style={{ margin: 0 }}>SIGN UP</h2>
                         <Typography >
@@ -136,7 +136,7 @@ function Register() {
                             </Grid>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12} lg={12} style={{ width: "35%", marginBottom: "20px" }}>
-                            <Button variant="contained" color="primary"
+                            <Button variant="contained" style={{ backgroundColor: "rgb(84 133 192)", color: "white", marginTop: "20px", width: "20%" }}
                                 onClick={() => submitdata()}
                             >
                                 Submit

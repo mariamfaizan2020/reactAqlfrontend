@@ -47,7 +47,7 @@ const View = () => {
                 <span>{user.contact}</span>
                 <br/>
                 <br/>
-<Link to="/">
+<Link to="/Home">
 <div className="btn btn-edit">Go Back</div>
 </Link>
 

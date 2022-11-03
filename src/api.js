@@ -8,11 +8,11 @@ export const baseUrl =DEV_URL
 export const API={
     //getUSERDATA
 
-    getUser:`${baseUrl}/api/getPost`,
-    insertUser:`${baseUrl}/api/post`,
-    deleteUser:`${baseUrl}/api/remove`,
-    getAUserData:`${baseUrl}/api/get`,
-    updateUser:`${baseUrl}/api/update`,
+    // getUser:`${baseUrl}/api/getPost`,
+    insertUser:`${baseUrl}/api/post/contact`,
+    // deleteUser:`${baseUrl}/api/remove`,
+    // getAUserData:`${baseUrl}/api/get`,
+    // updateUser:`${baseUrl}/api/update`,
     registerUser:`${baseUrl}/api/register`,
     loginUser:`${baseUrl}/api/login`
 }
